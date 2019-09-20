@@ -16,6 +16,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
@@ -384,6 +386,8 @@
 	<integer>0</integer>
 	<key>HotkeyCode</key>
 	<integer>0</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>0</integer>
 	<key>IRMemory</key>
@@ -399,7 +403,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~</string>
+	<string>/Applications</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -410,36 +414,44 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>322</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
+	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
+	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
+	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
+	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
+	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
+	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
+	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	AAAAADoAAAAAAAAAAAAAAAAAAAFM
+	</data>
+	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
+	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
+	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
+	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	</data>
+	<key>NSTableView Supports v2 KeyBingingTable</key>
+	<true/>
 	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
 	<dict>
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 249 606 456 0 0 1280 777 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>448 487 384 129 0 0 1280 778 </string>
+	<string>269 184 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 289 620 392 0 0 1280 777 </string>
+	<string>410 363 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>239 167 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2 185 1228 592 0 0 1280 777 </string>
+	<string>721 0 717 877 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>176 444 990 367 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_D1A98C73-498B-4AD5-87DF-345ED007ACF8</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -638,7 +650,7 @@
 			<key>Columns</key>
 			<integer>140</integer>
 			<key>Command</key>
-			<string>/bin/bash -l</string>
+			<string>/bin/zsh -l</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -660,7 +672,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -1072,35 +1084,20 @@
 			<string>/Users/asalvadore</string>
 		</dict>
 	</array>
-	<key>NoSyncHaveShownPromoWithId_4</key>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>4D28C76E-8A4D-4F7D-8AEC-0C4643673825</string>
-	<key>NoSyncLastTipTime</key>
-	<real>496953535.020136</real>
+	<string>D7666F93-9E7D-465C-AFD9-D0056855D0CF</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
-	<true/>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>486940241.11247301</real>
-	<key>NoSyncTimeOfLastPromo</key>
-	<real>477756416.58095801</real>
-	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>480028200.57340699</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-	</array>
+	<real>527185527.60663497</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1147,7 +1144,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/asalvadore/.dotfiles/iterm</string>
+	<string>/Users/andrea.salvadore/.dotfiles/iterm</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1159,17 +1156,19 @@
 	<key>RightOption</key>
 	<integer>3</integer>
 	<key>SUAutomaticallyUpdate</key>
-	<true/>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=88</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=83</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-02T20:54:26Z</date>
+	<date>2019-09-20T14:46:16Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1212,9 +1211,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.2.1beta1</string>
 </dict>
 </plist>

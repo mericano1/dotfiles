@@ -1,1 +1,4 @@
 git/gitconfig.local.symlink
+.gitsecret/keys/random_seed
+!*.secret
+git-secrets/coinrule.cli.secret

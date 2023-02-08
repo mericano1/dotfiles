@@ -48,3 +48,5 @@
 [user]
 	name = Andrew Salvadore
 	email = andrea@coinrule.com
+[init]
+	defaultBranch = main
